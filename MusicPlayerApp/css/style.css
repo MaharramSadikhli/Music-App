@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 350px;
+}
+
+#progress{
+    margin-bottom: 20px;
+}
+
+#progress-bar{
+    width: 100%;
+}
+
+.times, #controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#music-image{
+    width: 100%;
+    height: 200px;
+}
+
